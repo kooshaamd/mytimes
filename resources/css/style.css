@@ -1,1 +1,35 @@
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  justify-content: space-around;
+}
 
+.header p {
+  color: MediumAquamarine;
+}
+
+.logo{
+  display: flex;
+  padding: 10px;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.navigation span{
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.navigation{
+  padding-right: 40px;
+}
